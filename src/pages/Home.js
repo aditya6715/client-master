@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
-import real from './real.png'
+import real from '../real.png'
 import Carousel from "../components/Carousel";
 const Home = () => {
   return (
@@ -52,7 +52,7 @@ const Home = () => {
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
           {/* <img
-            src={real}
+            src={real.png}
             alt="mockup" style={{height : "450px" , width : "600px"}
           }
           /> */}
