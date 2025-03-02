@@ -1,11 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Add_agent from "./pages/Add_buyer";
-
 import Navbar from "./components/Navbar";
 import toast, { Toaster } from "react-hot-toast";
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
-import Viewdata from "./pages/Viewdata";
 
 function App() {
   return (
@@ -14,8 +9,13 @@ function App() {
         <Toaster />
       </div>
       <Navbar />
-      
-      
+      <header className="hero-section">
+        <div className="hero-content">
+          <h1>Welcome to Our Website</h1>
+          <p>Your trusted platform for managing properties efficiently.</p>
+          <button className="cta-button">Get Started</button>
+        </div>
+      </header>
     </>
   );
 }
